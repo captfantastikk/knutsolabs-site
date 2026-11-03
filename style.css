@@ -4,12 +4,12 @@ body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-appl
 main{max-width:720px;margin:0 auto;padding:48px 20px 64px}
 a{color:var(--accent)}
 .brand{font-weight:800;letter-spacing:.04em;text-transform:uppercase;font-size:14px;color:var(--muted);text-decoration:none}
-h1{font-size:clamp(32px,7vw,48px);line-height:1.1;margin:16px 0 8px}
+h1{font-size:min(44px,7.6vw);line-height:1.15;margin:16px 0 14px;text-align:center;white-space:nowrap}
 h2{font-size:20px;margin:32px 0 6px}
 .lead{font-size:19px;color:var(--muted);margin:0 0 32px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:14px 0}
 .card h3{margin:0 0 4px;font-size:19px}
 .card p{margin:0 0 10px;color:var(--muted)}
 footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
-.hero{display:block;width:min(260px,66vw);height:auto;margin:8px 0 12px}
+.hero{display:block;width:min(260px,66vw);height:auto;margin:8px auto 12px}
 .mascot{margin:-16px 0 32px;color:var(--muted)}
