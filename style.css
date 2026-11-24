@@ -13,3 +13,12 @@ h2{font-size:20px;margin:32px 0 6px}
 footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 .hero{display:block;width:min(260px,66vw);height:auto;margin:8px auto 12px}
 .mascot{margin:-16px 0 32px;color:var(--muted)}
+.note{color:var(--muted);margin:0 0 14px}
+.apps{display:grid;gap:12px}
+.app{display:flex;gap:16px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.app img{flex:none;width:72px;height:72px;border-radius:16px}
+.app div{min-width:0}
+.app h3{margin:2px 0 4px;font-size:19px;display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.app p{margin:0;color:var(--muted);font-size:16px;line-height:1.5}
+.soon{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);background:#e8f1f8;border-radius:999px;padding:3px 10px}
+.soon.later{color:#6b665d;background:#f1eee8}
